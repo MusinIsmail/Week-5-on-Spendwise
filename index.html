@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpendWise Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- JavaScript linked with defer to load after DOM parsing -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <h2>SpendWise</h2>
+      <nav>
+        <a href="#">Overview</a>
+        <a href="#">Expenses</a>
+        <a href="#">Budgets</a>
+        <a href="#">Analytics</a>
+      </nav>
+    </aside>
+
+    <!-- Main Section Wrapper -->
+    <div class="main-wrapper">
+      <!-- Header -->
+      <header class="header">
+        <h1>Financial Dashboard</h1>
+        <div class="user-profile" id="userProfileDisplay">Musin Ismail</div>
+      </header>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <div class="cards-grid">
+          <!-- Card 1: Food -->
+          <article class="card" tabindex="0">
+            <div class="card-header">
+              <span class="card-title">🍔 Food & Dining</span>
+              <span class="card-status">Active</span>
+            </div>
+            <div class="card-amount">$470.00</div>
+            <div class="card-footer">
+              <span>Budget: $600.00</span>
+              <span>78% Used</span>
+            </div>
+          </article>
+
+          <!-- Card 2: Transport -->
+          <article class="card" tabindex="0">
+            <div class="card-header">
+              <span class="card-title">🚗 Transportation</span>
+              <span class="card-status">Active</span>
+            </div>
+            <div class="card-amount">$180.00</div>
+            <div class="card-footer">
+              <span>Budget: $350.00</span>
+              <span>52% Used</span>
+            </div>
+          </article>
+
+          <!-- Card 3: Rent -->
+          <article class="card" tabindex="0">
+            <div class="card-header">
+              <span class="card-title">🏠 Rent & Housing</span>
+              <span class="card-status">Paid</span>
+            </div>
+            <div class="card-amount">$1,200.00</div>
+            <div class="card-footer">
+              <span>Budget: $1,200.00</span>
+              <span>100% Used</span>
+            </div>
+          </article>
+
+          <!-- Card 4: Entertainment -->
+          <article class="card" tabindex="0">
+            <div class="card-header">
+              <span class="card-title">🎬 Entertainment</span>
+              <span class="card-status">Active</span>
+            </div>
+            <div class="card-amount">$184.00</div>
+            <div class="card-footer">
+              <span>Budget: $200.00</span>
+              <span>92% Used</span>
+            </div>
+          </article>
+
+          <!-- Card 5: Savings -->
+          <article class="card" tabindex="0">
+            <div class="card-header">
+              <span class="card-title">📈 Savings Goal</span>
+              <span class="card-status">On Track</span>
+            </div>
+            <div class="card-amount">$250.00</div>
+            <div class="card-footer">
+              <span>Goal: $800.00</span>
+              <span>31% Met</span>
+            </div>
+          </article>
+
+          <!-- Card 6: Utilities -->
+          <article class="card" tabindex="0">
+            <div class="card-header">
+              <span class="card-title">⚡ Utilities</span>
+              <span class="card-status">Pending</span>
+            </div>
+            <div class="card-amount">$166.00</div>
+            <div class="card-footer">
+              <span>Budget: $350.00</span>
+              <span>47% Used</span>
+            </div>
+          </article>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
